@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorPrimaryDark"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StartActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+
+        android:layout_marginBottom="125dp"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/start_log_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/roundedbutton"
+            android:layout_margin="20dp"
+            android:layout_gravity="center"
+            android:text="Already have an account" />
+        <Button
+            android:id="@+id/start_res_button"
+android:layout_gravity="center"
+            android:background="@drawable/roundedbutton"
+            android:layout_margin="20dp"
+            android:text="New Account"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <TextView
+        android:gravity="center"
+        android:layout_margin="85dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:fontFamily="casual"
+        android:text="Welcome to Simple Notes App"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
